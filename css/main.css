@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-size: 90px;
+}
+
+.font-brown {
+  color: rgb(136, 89, 17);
+}
+
+.image-round {
+  width: 300px;
+  border-radius: 150px;
+  margin-right: 10px;
+}
+
+.image-normal-size {
+  width: 200px;
+  margin: 10px;
+}
+
+.roboto-aboutme {
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.custom-nav-link:hover {
+  font-weight: bold;
+  background-color: burlywood;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #212529;
+  color: white;
+  text-align: center;
+}
+
+/* IFRAME GOOGLE MAPS STUFF */
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+}
